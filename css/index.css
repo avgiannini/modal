@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  height: 100vh;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #fff;
+  width: 450px;
+  height: 250px;
+  box-shadow: 0 0 20px 0px #d3d3d3;
+  font-size: 20pt;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  animation: modalToDown 1s;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.modal:hover {
+  width: 500px;
+  height: 300px;
+  font-size: 23pt;
+}
+
+@keyframes modalToDown {
+  from {
+    margin-bottom: 50px;
+  }
+
+  to {
+    margin-bottom: 0;
+  }
+}
