@@ -1,9 +1,9 @@
 const modal = document.querySelector('#modal');
 
-const teste = () => {
+const exibirModal = () => {
   if (modal.style.display === '') {
     modal.style.display = 'flex';
   }
 }
 
-setInterval(teste, 5000);
+setInterval(exibirModal, 5000);
