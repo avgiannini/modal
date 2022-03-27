@@ -5,3 +5,7 @@ Pequeno projeto que cria e manipula um modal no HTML
 - HTML
 - CSS
 - Javascript
+
+# Como funciona?
+O modal aparece 5 segundos após a página carregar
+Ao passar o mouse pelo modal ele é expandido atráves de um evento hover CSS
